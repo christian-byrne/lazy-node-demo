@@ -32,12 +32,6 @@ nodes/
 ## Non-Lazy
 
 
-<details>
-
-<summary>&nbsp; Show <code>__init__.py</code> Code</summary>
-
-
-<br>
 
 
 ```python
@@ -55,18 +49,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 ```
 
 
-<br>
-
-
-</details>
-
-
-<details>
-
-<summary>&nbsp; Show <code>nodes/image_batch_node.py</code> Code</summary>
-
-
-<br>
 
 
 ```python
@@ -100,24 +82,14 @@ class ImageBatch:
         return (s,)
 ```
 
-<br>
-
-
-</details>
-
-
 ## Lazy
 
-<details>
-
-<summary>&nbsp; Show <code>__init__.py</code> Code</summary>
-
-
-<br>
 
 
 
 ```python
+# /__init__.py
+ 
 import os
 import importlib
 
@@ -162,18 +134,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 }
 ```
 
-<br>
-
-
-
-</details>
-
-<details>
-
-<summary>&nbsp; Show <code>nodes/image_batch_node.py</code> Code</summary>
-
-
-<br>
 
 
 ```python
@@ -197,8 +157,3 @@ class ImageBatch:
         return (s,)
 ```
 
-
-<br>
-
-
-</details>

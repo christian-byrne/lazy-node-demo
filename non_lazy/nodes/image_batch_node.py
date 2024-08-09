@@ -3,16 +3,6 @@ import comfy.utils
 
 
 class ImageBatch:
-
-    @classmethod
-    def INPUT_TYPES(s):
-        return {"required": {"image1": ("IMAGE",), "image2": ("IMAGE",)}}
-
-    RETURN_TYPES = ("IMAGE",)
-    FUNCTION = "batch"
-
-    CATEGORY = "image"
-
     def batch(self, image1, image2):
         if image1.shape[1:] != image2.shape[1:]:
             image2 = comfy.utils.common_upscale(
