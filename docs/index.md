@@ -29,7 +29,15 @@ nodes/
     image_batch_node.py
 ```
 
-## Non-Lazy
+## Diff View
+
+![alt text](diff1.png)
+
+![alt text](diff2.png)
+
+## Code
+
+### Non-Lazy
 
 
 
@@ -82,7 +90,7 @@ class ImageBatch:
         return (s,)
 ```
 
-## Lazy
+### Lazy
 
 
 

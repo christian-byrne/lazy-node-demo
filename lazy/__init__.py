@@ -34,9 +34,9 @@ class ImageBatch(LazyNode):
 
 
 NODE_CLASS_MAPPINGS = {
-    "ImageBatch1": ImageBatch,
+    "ImageBatch": ImageBatch,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ImageBatch1": "Lazy Batch Images",
+    "ImageBatch": "Batch Images",
 }
